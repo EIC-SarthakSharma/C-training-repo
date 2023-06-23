@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int fact(int n)
+{
+	int ans;
+	if(n>1)
+	{
+		ans=n*fact(n-1);
+		
+		if(n==1)
+		{
+			f(n)=1;
+		}
+	}
+	
+	return ans;
+}
+
+void main()
+{
+	int n;
+	
+	scanf("%d",&n);
+	
+	printf("Factorial of %d is %d",n,fact(n));
+}

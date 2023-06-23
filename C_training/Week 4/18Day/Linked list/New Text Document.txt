@@ -1,0 +1,16 @@
+void TypeAndDelete(char* str1, char* str2) {
+    int n1=strlen(str1);
+    int n2=strlen(str2);
+    
+    //printf("%s,%s",str1,str2);
+    if(str1[n1]==str2[n2])
+    {
+        printf("Same");
+    }
+    else
+    {
+        printf("Different");
+    }
+
+}
+
