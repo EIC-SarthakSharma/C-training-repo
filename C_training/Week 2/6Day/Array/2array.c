@@ -47,11 +47,13 @@ void main()
 		printf("Element found !! at index --> a[%d] \n", si);
 
 		printf("\n-------------------------------------------------");
+
 	}
 	else if (flag > 1)
 	{
 		printf("Element not found !!\n");
 
 		printf("\n-------------------------------------------------");
+
 	}
 }
